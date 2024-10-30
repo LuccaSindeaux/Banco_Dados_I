@@ -5,7 +5,7 @@ create database teste01;
 use teste01;
 
 			-- NomeBanco.NomeTabela  -----> boa prática de criação de tabelas
-create table teste01.tabNova -- Tabelas são colcoadas dentro de parenteses e devem ser terminadas com ponto e vírgula
+create table teste01.tabNova -- Tabelas são colocadas dentro de parenteses e devem ser terminadas com ponto e vírgula
 ( -- Tabela em si com seus elementos.
     id int primary key,
     nome varchar(30) not null, -- Ao definir varchar deve ser definido também o número de caracteres. 
